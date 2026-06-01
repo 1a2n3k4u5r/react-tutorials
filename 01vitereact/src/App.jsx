@@ -1,10 +1,9 @@
 function App() {
   return (
-    <h1>Hello React</h1>
+    <a href="https://google.com" target="_blank">
+      click me to visit google
+    </a>
   );
 }
 
 export default App;
-
-
-// react khud ka bhi dom banata hai
