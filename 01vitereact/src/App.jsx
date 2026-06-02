@@ -1,8 +1,11 @@
 function App() {
+  const username = "chai aur code";
+
   return (
-    <a href="https://google.com" target="_blank">
-      click me to visit google
-    </a>
+    <>
+      <h1>chai aur react {username}</h1>
+      <p>test para</p>
+    </>
   );
 }
 
