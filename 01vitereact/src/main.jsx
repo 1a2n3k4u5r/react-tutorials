@@ -53,3 +53,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 // Without a bundler, browsers cannot understand:
 
 //  React has many method one method is that "createElement" ka andar ap apna koi bhi value/object  pass kar sakta hai
+
+// what is the createRoot method and it usage
+// the createRoot behind the sceen use to create a DOM like structure as like browser DOM because it compare a main DOM and its own create DOm and then update those things which is actually update in the  UI but browser remove all the DOM and then again repaint(web structure dobara se thar ho rha hai) all the DOM isko page reload bolta hai
+
+// In Virtual DOM you can track/trace all the DOM in tree like structure and then those value that are change are pick from DOM and then again insert this is called virtual DOM.
+
+//fibre is used to update the Virtual DOM
