@@ -18,6 +18,10 @@ function App() {
   const addValue = () => {
     // counter = counter + 1
     setCounter(counter + 1)
+    //  setCounter( prevcounter = prevcounter + 1)
+    //   setCounter( prevcounter = prevcounter + 1)
+    //    setCounter( prevcounter = prevcounter + 1)
+    //     setCounter( prevcounter = prevcounter + 1)  ,output = 19. (*********** INTERVIEW question)
     // console.log("clicked", counter);
 
   }
@@ -55,3 +59,6 @@ export default App
 
 
 // IMPORTANT is that UI updation ko React control karta ha jassa ek button ko click karna pa 5 ya fir alag jagha change ho to UI ko update karna ka liya REact ka use hota hai.
+
+//@@@@@@@%%%%%***** ####( IMPORTANT FOR INTERVIEW)) concept of useState
+// useState apka jitna bhi update bhajana hai UI ma ,sath ma variable tak ma  unko batches ma bhajata hai, setCounter ka andar ek callback()  milta hai
