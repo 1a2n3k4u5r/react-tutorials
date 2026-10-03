@@ -2,7 +2,7 @@ function App() {
   const username = "chai aur code";
 
   return (
-    <>
+     <>
       <h1>chai aur react {username}</h1>
       <p>test para</p>
     </>
@@ -10,3 +10,5 @@ function App() {
 }
 
 export default App;
+
+// this sign (< >,</>) is called fragement

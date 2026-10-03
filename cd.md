@@ -73,3 +73,5 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://react.dev/). -->
 
 # main work hum react ma src ma karta hai.
+
+# Vite ka package.json ma kabhi bhi react-scripts nhi di hoti hai to iski matlab hamara html ka andar us react ka main file or index file ko inject kaun karega
